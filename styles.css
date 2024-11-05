@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -14,7 +14,7 @@ body {
 
 /* Estilos para la cabecera */
 header {
-    background-color: red;
+    background-color: #003cff;
     color: white;
     padding: 20px;
     text-align: center;
@@ -37,10 +37,10 @@ header .logo {
 
 /* Estilos para el menú lateral izquierdo */
 .sidebar {
-    width: 20%;
-    background-color: #333;
+    width: 10%;
+    background-color: hsl(101, 90%, 38%);
     padding: 20px;
-    color: white;
+    color: rgb(29, 52, 82);
 }
 
 .sidebar ul {
@@ -52,7 +52,7 @@ header .logo {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: #cc5a5a;
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -65,7 +65,7 @@ header .logo {
 .main-content {
     flex-grow: 1;
     padding: 20px;
-    background-color: #fff;
+    background-color: hsl(189, 51%, 78%);
 }
 
 .main-content h2 {
@@ -80,8 +80,8 @@ header .logo {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4a90e2;
-    color: white;
+    background-color:hsl(101, 79%, 32%)2;
+    color: rgb(221, 72, 255);
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -89,13 +89,13 @@ button {
 }
 
 button:hover {
-    background-color: #357ab7;
+    background-color: #db9b23;
 }
 
 /* Pie de página */
 footer {
-    background-color: #4a90e2;
-    color: white;
+    background-color: hsl(61, 72%, 59%);
+    color: #d12525;
     text-align: center;
     padding: 10px;
     position: relative;
